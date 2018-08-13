@@ -1,5 +1,9 @@
 exports.hiWorld = (name, ...extra)=>{
-  if(name !=='') {
+  if(typeof name !== 'string') {
     return null;
   }
+
+  // if(name === 'world'){
+
+  // }
 };
