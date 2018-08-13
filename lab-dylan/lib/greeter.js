@@ -3,7 +3,10 @@ exports.hiWorld = (name, ...extra)=>{
     return null;
   }
 
-  // if(name === 'world'){
+  if(name === 'world'){
+    return 'hello world';
+  }
 
-  // }
+  if(name)
+    return `hello ${name}`;
 };

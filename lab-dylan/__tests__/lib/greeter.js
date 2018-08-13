@@ -13,6 +13,10 @@ describe('greeter', ()=> {
     it('can greet the world', () => {
       expect(greeter.hiWorld('world')).toBe('hello world');
     });
+
+    it('can greet people', () => {
+      expect(greeter.hiWorld('Dylan')).toBe('hello Dylan');
+    });
   });
 
 });
